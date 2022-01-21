@@ -1,0 +1,16 @@
+.movies {
+    padding-top: 50px;
+    .card {
+        margin-bottom: 50px;
+        h2 {
+            font-size: 30px;
+        }
+        h4 {
+            font-weight: 500;
+            span {
+                font-weight: 800
+            }
+        }
+    }
+
+}

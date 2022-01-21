@@ -8,11 +8,10 @@ use App\Movie;
 class MoviesController extends Controller
 {
     public function index() {
-        return view('home');
+
+        $movies = Movie::all();
+
+        return view('home', compact('movies'));
     }
 
-    public function getMovie() {
-        $movies = Movie::all();
-        dump($movies);
-    }
 }

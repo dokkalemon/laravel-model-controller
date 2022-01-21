@@ -45,3 +45,19 @@ header .header {
 header .header h1 {
   font-weight: 100;
 }
+
+.movies {
+  padding-top: 50px;
+}
+.movies .card {
+  margin-bottom: 50px;
+}
+.movies .card h2 {
+  font-size: 30px;
+}
+.movies .card h4 {
+  font-weight: 500;
+}
+.movies .card h4 span {
+  font-weight: 800;
+}
