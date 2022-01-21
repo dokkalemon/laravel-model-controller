@@ -2,7 +2,17 @@
 
 @section('main')
     
-<h1>PEROVA</h1>
+<section class="movies-container full-width">
+<div class="movies container px-20 debug">
+
+
+
+
+
+
+
+</div>
+</section>
 
 
 

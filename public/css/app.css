@@ -1,0 +1,47 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utility */
+body {
+  font-family: sans-serif;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+header {
+  background-color: #b5b5b5;
+  border-bottom: 1px solid black;
+}
+header .header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header h1 {
+  font-weight: 100;
+}
